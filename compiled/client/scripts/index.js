@@ -1,0 +1,7 @@
+'use strict';
+
+ReactDOM.render(React.createElement(App, null), document.getElementById('target'));
+// Well hell. It's all out of the bag now.
+
+console.log('App rendered!');
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2NsaWVudC9zY3JpcHRzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsU0FBUyxNQUFULENBQWdCLG9CQUFDLEdBQUQsT0FBaEIsRUFBeUIsU0FBUyxjQUFULENBQXdCLFFBQXhCLENBQXpCOzs7QUFHQSxRQUFRLEdBQVIsQ0FBWSxlQUFaIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiUmVhY3RET00ucmVuZGVyKDxBcHAgLz4sIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd0YXJnZXQnKSk7XG4vLyBXZWxsIGhlbGwuIEl0J3MgYWxsIG91dCBvZiB0aGUgYmFnIG5vdy5cblxuY29uc29sZS5sb2coJ0FwcCByZW5kZXJlZCEnKTtcbiJdfQ==

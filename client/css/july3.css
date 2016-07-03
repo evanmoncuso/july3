@@ -1,0 +1,96 @@
+body {
+  font-family: 'Helvetica Neue';
+  background-color: #ececec;
+  box-sizing: border-box;
+}
+
+header {
+  width:100%;
+  background-color:#333;
+  color:white;
+  padding:24px;
+  text-align: center;
+  box-shadow: 1px 1px 1px #333;
+}
+
+header h1 {
+  font-size:32px;
+  line-height: 42px;
+}
+
+.highlight {
+  color:#db2707;
+  transition: color 1s;
+}
+
+.highlight:hover {
+  color:white;
+}
+
+.main_container {
+  width:960px;
+  margin:24px auto 0 auto;
+}
+
+.displayDiv {
+  background-color: white;
+  padding:12px;
+  margin:24px;
+  font-size: 18px;
+  line-height: 22px;
+  box-shadow: 1px 1px 3px #333;
+}
+
+.displayDiv h2 {
+  background-color:#333;
+  width:25%;
+  padding:12px;
+  border-left: 4px solid #db2707;
+  margin:-12px 12px 12px -12px;
+  color:#ececec;
+  font-size: 22px;
+  text-align: left;
+}
+
+#user_text {
+  display:block;
+  text-align: center;
+  width:66%;
+  padding:6px;
+  margin:0 auto;
+  font-size: 24px;
+  line-height: 32px;
+  color:#db2707;
+  border: none;
+  outline:none;
+}
+
+.searchResults {
+  background-color: white;
+  padding:12px;
+  margin:24px;
+  font-size: 18px;
+  line-height: 22px;
+  box-shadow: 1px 1px 3px #333;
+}
+
+.searchResults h3 {
+  background-color:#333;
+  width:200px;
+  padding:12px;
+  border-left: 4px solid #db2707;
+  margin-bottom:12px;
+  color:#ececec;
+  font-size: 22px;
+  text-align: left;
+}
+
+.searchResult {
+  padding:12px;
+}
+
+.searchTime {
+  float:right;
+  font-size: 12px;
+  color:#555;
+}

@@ -1,0 +1,17 @@
+'use strict';
+
+var fs = require('fs');
+var path = require('path');
+var express = require('express');
+var bodyParser = require('body-parser');
+
+var app = express();
+
+console.log(__dirname);
+
+app.use('/', express.static(path.join(__dirname, '../')));
+
+app.listen(3000, function () {
+  console.log('listening on port 3000');
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NlcnZlci9zZXJ2ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJLEtBQUssUUFBUSxJQUFSLENBQVQ7QUFDQSxJQUFJLE9BQU8sUUFBUSxNQUFSLENBQVg7QUFDQSxJQUFJLFVBQVUsUUFBUSxTQUFSLENBQWQ7QUFDQSxJQUFJLGFBQWEsUUFBUSxhQUFSLENBQWpCOztBQUVBLElBQU0sTUFBTSxTQUFaOztBQUVBLFFBQVEsR0FBUixDQUFZLFNBQVo7O0FBRUEsSUFBSSxHQUFKLENBQVEsR0FBUixFQUFhLFFBQVEsTUFBUixDQUFlLEtBQUssSUFBTCxDQUFVLFNBQVYsRUFBcUIsS0FBckIsQ0FBZixDQUFiOztBQUVBLElBQUksTUFBSixDQUFXLElBQVgsRUFBaUIsWUFBTTtBQUFDLFVBQVEsR0FBUixDQUFZLHdCQUFaO0FBQXNDLENBQTlEIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImxldCBmcyA9IHJlcXVpcmUoJ2ZzJyk7XG5sZXQgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTtcbmxldCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpO1xubGV0IGJvZHlQYXJzZXIgPSByZXF1aXJlKCdib2R5LXBhcnNlcicpO1xuXG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5cbmNvbnNvbGUubG9nKF9fZGlybmFtZSk7XG5cbmFwcC51c2UoJy8nLCBleHByZXNzLnN0YXRpYyhwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4vJykpKTtcblxuYXBwLmxpc3RlbigzMDAwLCAoKSA9PiB7Y29uc29sZS5sb2coJ2xpc3RlbmluZyBvbiBwb3J0IDMwMDAnKX0pO1xuIl19
