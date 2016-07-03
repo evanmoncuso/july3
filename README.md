@@ -10,9 +10,9 @@ The front end will be done with REACT, I think. Since that's the one I know how 
 There will be three main components
 
 1. Input area:
-...This is where the user will input the line they want the app to read back.
-..* It will consist of a div, containing an input field, and a submit button
-..* The div will target the hard coded header in the html page.
+This is where the user will input the line they want the app to read back.
+It will consist of a div, containing an input field, and a submit button
+The div will target the hard coded header in the html page.
 2. Something to display the returned data
 ... Either an audio element or another window of some sort.
 3. A collection of all the past searches a user has made.
